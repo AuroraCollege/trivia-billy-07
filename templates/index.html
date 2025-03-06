@@ -19,6 +19,10 @@
                 <input type="radio" name="{{ question.id }}" value="d"> {{ question.choice_d }}<br>
             </div>
         {% endfor %}
+        <div>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
         <button type="submit">Submit</button>
     </form>
 </body>
